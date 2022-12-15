@@ -74,12 +74,12 @@
       <![CDATA[closing browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-13T11:13:36 IST" name="Default suite" finished-at="2022-12-13T11:14:26 IST" duration-ms="49874">
+  <suite started-at="2022-12-15T10:00:22 IST" name="Suite" finished-at="2022-12-15T10:01:13 IST" duration-ms="50539">
     <groups>
     </groups>
-    <test started-at="2022-12-13T11:13:36 IST" name="Default test" finished-at="2022-12-13T11:14:26 IST" duration-ms="49874">
+    <test started-at="2022-12-15T10:00:22 IST" name="Test" finished-at="2022-12-15T10:01:13 IST" duration-ms="50539">
       <class name="neoStoxTest.ValidateNeostoxUserName">
-        <test-method is-config="true" signature="launchNeostox()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-13T11:13:36 IST" name="launchNeostox" finished-at="2022-12-13T11:13:53 IST" duration-ms="16663" status="PASS">
+        <test-method is-config="true" signature="launchNeostox()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-15T10:00:22 IST" name="launchNeostox" finished-at="2022-12-15T10:00:35 IST" duration-ms="12471" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[reading value ofurlfrom property file]]>
@@ -92,7 +92,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchNeostox -->
-        <test-method is-config="true" signature="loginToNeostox()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-13T11:13:53 IST" name="loginToNeostox" finished-at="2022-12-13T11:14:24 IST" duration-ms="30364" status="PASS">
+        <test-method is-config="true" signature="loginToNeostox()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-15T10:00:35 IST" name="loginToNeostox" finished-at="2022-12-15T10:01:10 IST" duration-ms="35584" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[reading value ofmobNumfrom property file]]>
@@ -135,7 +135,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginToNeostox -->
-        <test-method signature="validateUserName()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-13T11:14:24 IST" name="validateUserName" finished-at="2022-12-13T11:14:24 IST" duration-ms="694" status="PASS">
+        <test-method signature="validateUserName()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-15T10:01:10 IST" name="validateUserName" finished-at="2022-12-15T10:01:11 IST" duration-ms="482" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[getting user name]]>
@@ -151,7 +151,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateUserName -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-13T11:14:24 IST" name="logout" finished-at="2022-12-13T11:14:25 IST" duration-ms="423" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-15T10:01:11 IST" name="logout" finished-at="2022-12-15T10:01:11 IST" duration-ms="274" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[waiting for1000milis]]>
@@ -164,7 +164,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-13T11:14:25 IST" name="closeApplication" finished-at="2022-12-13T11:14:26 IST" duration-ms="1592" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@21282ed8]" started-at="2022-12-15T10:01:11 IST" name="closeApplication" finished-at="2022-12-15T10:01:13 IST" duration-ms="1655" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing browser]]>
@@ -172,6 +172,6 @@
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- neoStoxTest.ValidateNeostoxUserName -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
