@@ -21,7 +21,12 @@ public class Base
 		driver.get(UtilityNew.readDataFromPropertyFile("url"));
 		driver.manage().window().maximize();
 		Reporter.log("launchingBrowser",true);
-		UtilityNew.wait(driver, 1000);
+		
+		
+		
+		
+		
+	    UtilityNew.wait(driver, 1000);
 	}
 	
 	public static void closingBrowser(WebDriver driver) throws InterruptedException 
